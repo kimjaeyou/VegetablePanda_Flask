@@ -18,10 +18,10 @@ def recommend():
     
     
     db = pymysql.connect(
-        host='finaldb.c3cgiqia4q8c.ap-northeast-2.rds.amazonaws.com',     # MySQL Server Address
-        port=3306,     # MySQL Server Port
-        user='root',      # MySQL username
-        passwd='jmkh425124',    # password for MySQL username
+        host='',     # MySQL Server Address
+        port=,     # MySQL Server Port
+        user='',      # MySQL username
+        passwd='',    # password for MySQL username
         db='finalDB',   
         charset='utf8'
     )
